@@ -8,6 +8,7 @@ html {
   line-height: 1.4;
   font-size: 16px;
   font-family: Arial, sans-serif;
+  background-color: #FFFEF5;
 }
 
 
@@ -21,6 +22,8 @@ header {
   padding: 0px 2rem;
   justify-content: space-between;
   display: flex;
+  box-shadow: 0px 5px 5px 0px rgba(6, 0, 0, 0.17);
+  ;
 }
 
 
