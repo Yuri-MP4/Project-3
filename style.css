@@ -36,6 +36,16 @@ nav a{
   border-right: 8px solid #DB4325;
 }
 
+nav a:hover{
+color: #A2311A;
+background-color: white;
+font-size: 2.0rem;
+}
+
+.header-button{
+transition: all 300ms ease-out 200ms;
+}
+
 .logo{
 width: 325px;
 height: auto;
@@ -60,7 +70,10 @@ height: auto;
   text-decoration: none;
   font-size: 1.2rem;
   border-right: 5px solid #DB4325;
+}
 
+  nav a:hover{
+font-size: 1.4rem;
 }
 
 }
