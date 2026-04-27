@@ -40,6 +40,7 @@ nav a:hover{
 color: #A2311A;
 background-color: white;
 font-size: 2.0rem;
+box-shadow: 2px 2px 7px 2px rgba(6, 0, 0, 0.37);
 }
 
 .header-button{
