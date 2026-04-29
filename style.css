@@ -1,3 +1,17 @@
+.kavoon-regular {
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +22,7 @@ html {
   color: #222;
   line-height: 1.4;
   font-size: 16px;
-  font-family: Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: #FFFEF5;
 }
 
@@ -84,6 +98,7 @@ border-bottom: 5px solid #1F1F1F;
 .greetings-2{
 Font-size: 3.5rem;
 animation: fade-up 900ms ease 200ms;
+font-family: "Kavoon", serif;
 }
 
 .home-content{
@@ -119,6 +134,7 @@ font-size: 1.5rem;
 border-bottom: 8px solid #7121B8;
 border-left: 8px solid #38B05A;
 border-right: 8px solid #7121B8;
+font-weight: 450;
 }
 
 
