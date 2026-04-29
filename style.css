@@ -55,6 +55,30 @@ width: 325px;
 height: auto;
 }
 
+footer{
+  width: 100vw;
+  text-align: center;
+  background-color: #7121B8;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 2.5rem;
+  font-weight: 700;
+   box-shadow: 5px 5px 05px 10px rgba(6, 0, 0, 0.19);
+}
+
+footer a{
+  text-decoration: underline;
+  color: #FFF838;
+}
+
+footer a:hover{
+  color: #F9F7E1;
+}
+
+.footer-link{
+  transition: 200ms
+}
+
 @media only screen and (max-width: 480px) {
   header{
     flex-direction: column;
