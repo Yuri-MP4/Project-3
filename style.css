@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,7 +16,6 @@ html {
 header {
   height: auto;
   width: 100vw;
-  max-width: 1205px;
   text-transform: uppercase;
   align-items: center;
   background-color: #38B05A;
@@ -63,7 +63,8 @@ footer{
   padding: 1.5rem;
   margin-top: 2.5rem;
   font-weight: 700;
-   box-shadow: 5px 5px 05px 10px rgba(6, 0, 0, 0.19);
+  font-size: 0.9rem;
+  box-shadow: 5px 5px 05px 10px rgba(6, 0, 0, 0.19);
 }
 
 footer a{
@@ -72,11 +73,11 @@ footer a{
 }
 
 footer a:hover{
-  color: #F9F7E1;
+  color: #94D2FF;
 }
 
 .footer-link{
-  transition: 200ms
+  transition: 300ms;
 }
 
 @media only screen and (max-width: 480px) {
