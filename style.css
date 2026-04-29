@@ -67,15 +67,23 @@ height: auto;
   margin-right: auto;
   border-radius: 1.1rem;
   border: 8px solid #DB4325;
+  transition: all 300ms ease-out 200ms;
+}
+
+.intro-1:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 20, 0.3);
+}
 }
 
 .greetings-1{
 padding-bottom: 1.2rem;
- border-bottom: 5px solid #1F1F1F;
+border-bottom: 5px solid #1F1F1F;
 }
 
 .greetings-2{
 Font-size: 3.5rem;
+animation: text-focus-in 900ms ease 200ms;
 }
 
 footer{
@@ -103,6 +111,17 @@ footer a:hover{
   transition: 300ms;
 }
 
+@keyframes text-focus-in {
+  0% {
+    filter: blur(2px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   header{
     flex-direction: column;
@@ -120,12 +139,12 @@ footer a:hover{
   color: White;
   padding: 1.3rem;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   border-right: 5px solid #DB4325;
 }
 
   nav a:hover{
-font-size: 1rem;
+font-size: 0.9rem;
 }
 
 .intro-1{
