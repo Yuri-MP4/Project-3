@@ -160,6 +160,17 @@ text-align: center;
   animation: fade-up 900ms ease 200ms;
 }
 
+.pointer {
+  height: 90px; 
+  width: 100px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5rem;
+  animation: bounce .7s ease infinite alternate;
+  animation-delay: .9s;
+}
+
 .events {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -289,6 +300,12 @@ footer a:hover{
     opacity: 1;
     transform: translateY(0px) scale(1);
   }
+}
+
+@keyframes bounce {
+	100% {
+		transform: translateY(-20px);
+	}
 }
 
 @media only screen and (max-width: 480px) {
