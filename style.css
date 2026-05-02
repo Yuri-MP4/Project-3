@@ -140,7 +140,41 @@ font-weight: 450;
 
 /* End of Index.html content */
 
-.plan{
+.about-content{
+text-align: center;
+max-width: 950px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-bottom: 8px solid #7121B8;
+border-left: 8px solid #38B05A;
+border-top: 8px solid #38B05A;
+border-right: 8px solid #7121B8;
+}
+
+.timeline{
+height: auto;
+width: 100%;
+}
+
+.about-text, .about-text-2{
+text-align:left;
+padding: 1.2rem;
+}
+
+.show-biz{
+height: auto;
+width: 100%;
+}
+
+.about-grid{
+display: grid;
+grid-template-columns: 2fr 1fr;
+}
+
+/*End of About.html content*/
+
+.plan, .history{
 text-align: center;
  margin-top: 3.5rem;
   margin-bottom: 2.5rem;
@@ -376,7 +410,7 @@ margin-right: 1.5rem;
   font-size: 2.3rem;
   }
 
-  .home-content{
+  .home-content, .about-content{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   }
@@ -385,7 +419,7 @@ margin-right: 1.5rem;
   font-size: 1.1rem;
   }
 
-  .plan{
+  .plan, .history{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -400,6 +434,11 @@ margin-right: 1.5rem;
 .dates{
 	margin-left:1.5rem;
 	margin-right: 1.5rem;
+}
+
+.about-grid{
+display: grid;
+grid-template-columns: 1fr;
 }
 }
 
